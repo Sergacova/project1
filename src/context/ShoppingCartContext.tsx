@@ -21,7 +21,6 @@ type ShoppingCartContext = {
   cartQuantity: number
   cartItems: CartItem[]
 }
-
 const ShoppingCartContext = createContext({} as ShoppingCartContext)
 
 export function useShoppingCart() {
